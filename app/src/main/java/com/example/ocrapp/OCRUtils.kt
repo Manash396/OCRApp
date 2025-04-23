@@ -32,7 +32,7 @@ object OCRUtils {
         val filename =  "Text_OCR_${System.currentTimeMillis()}.txt"
         val file = File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), filename)
         file.writeText(text)
-        Toast.makeText(context,"Saved to {file.absolutePath} ", Toast.LENGTH_LONG).show()
+        Toast.makeText(context,"Saved to ${file.absolutePath} ", Toast.LENGTH_LONG).show()
     }
 
 }
