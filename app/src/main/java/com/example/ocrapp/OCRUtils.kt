@@ -22,7 +22,7 @@ object OCRUtils {
             }
             .addOnFailureListener{
                 e ->
-                Log.e("OCR","Failed to process ")
+                Log.e("OCR","Failed to process the Photo ")
                 onResult("Failed to recognize text")
             }
 
