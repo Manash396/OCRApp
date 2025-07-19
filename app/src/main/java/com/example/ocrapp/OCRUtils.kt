@@ -23,7 +23,7 @@ object OCRUtils {
             .addOnFailureListener{
                 e ->
                 Log.e("OCR","Failed to process ")
-                onResult("Failed to recognize text")
+                onResult("Failed ")
             }
 
     }
